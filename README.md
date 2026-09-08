@@ -20,7 +20,7 @@ For every new request, the system:
 
 The form collects the customer's name, phone number, email, requested service and message.
 
-![Customer Request Form](screenshots/customer-request-form.jpg)
+![Customer Request Form](screenshots/01-customer-request-form.jpg)
 
 ## Request Tracker
 
@@ -30,23 +30,23 @@ The sheet includes the customer information, request status, next follow-up date
 
 Statuses can be changed to `New Request`, `Contacted`, `Follow-Up` or `Completed`.
 
-![Request Tracker](screenshots/google-sheets-crm.jpg)
+![Request Tracker](screenshots/02-request-tracker-dashboard.jpg)
 
 ## Email Automation
 
-After submitting the form, the customer receives an automatic confirmation email.
+The business receives an internal notification with the customer's details and request.
 
-![Customer Confirmation](screenshots/customer-confirmation-email.jpg)
+![Internal Notification](screenshots/03-internal-email-notification.jpg)
 
-At the same time, the business receives an internal notification with the customer's details and request.
+The customer also receives an automatic confirmation email after submitting the form.
 
-![Internal Notification](screenshots/internal-notification-email.jpg)
+![Customer Confirmation](screenshots/04-customer-confirmation-email.jpg)
 
 ## Automation
 
 The automation is handled with Google Apps Script using an `onFormSubmit` trigger.
 
-![Apps Script](screenshots/apps-script-automation.jpg)
+![Apps Script](screenshots/05-google-apps-script-automation.jpg)
 
 ## Tools Used
 
